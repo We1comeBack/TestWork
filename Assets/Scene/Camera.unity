@@ -354,6 +354,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 758136156}
+  - component: {fileID: 758136157}
   m_Layer: 0
   m_Name: AimPoint
   m_TagString: Untagged
@@ -375,6 +376,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &758136157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 758136155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3d2acf3e3b824b40a008d092422a397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectAimPoint: {fileID: 1238815890}
+  _raycastManager: {fileID: 1310129121}
 --- !u!1 &1183053293
 GameObject:
   m_ObjectHideFlags: 0
@@ -432,7 +447,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1238815890
 GameObject:
@@ -510,7 +525,7 @@ Transform:
   m_Children:
   - {fileID: 217571261}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1310129121
 MonoBehaviour:
