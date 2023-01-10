@@ -562,6 +562,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3d2acf3e3b824b40a008d092422a397, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ObjectToPlace: {fileID: 1606223274558474292, guid: 720adcfd12b547f419e50c79ff4b3b91, type: 3}
   ObjectAimPoint: {fileID: 1238815890}
   _raycastManager: {fileID: 1310129121}
 --- !u!1 &1183053293
