@@ -381,7 +381,7 @@ Transform:
   m_Children:
   - {fileID: 77703273}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &705507993
 GameObject:
@@ -517,7 +517,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &758136155
 GameObject:
@@ -548,7 +548,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &758136157
 MonoBehaviour:
@@ -562,7 +562,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3d2acf3e3b824b40a008d092422a397, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ObjectToPlace: {fileID: 6013211193377418680, guid: c836cc55cb6a7a44f9f4aa2f3e0a7374, type: 3}
   ObjectAimPoint: {fileID: 1238815890}
   _raycastManager: {fileID: 1310129121}
 --- !u!1 &1183053293
@@ -653,7 +652,7 @@ Transform:
   m_Children:
   - {fileID: 2022673905}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1310129118
 GameObject:
@@ -728,7 +727,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_PlanePrefab: {fileID: 0}
-  m_DetectionMode: -1
+  m_DetectionMode: 1
 --- !u!1 &1486102549
 GameObject:
   m_ObjectHideFlags: 0
