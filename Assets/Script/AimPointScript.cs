@@ -7,7 +7,6 @@ using UnityEngine.XR.ARSubsystems;
 public class AimPointScript : MonoBehaviour
 {
     public GameObject ObjectAimPoint;
-    public GameObject ObjectToSpawn;
 
     [SerializeField] private ARRaycastManager _raycastManager;
     private Pose _objectPose;
@@ -51,11 +50,6 @@ public class AimPointScript : MonoBehaviour
             var cameraForward = Camera.current.transform.forward;
             var cameraBearing = new Vector3(cameraForward.x, 0, cameraForward.z).normalized;
             _objectPose.rotation = Quaternion.LookRotation(cameraBearing);
-        }
-
-        if(Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began)
-        {
-            Instantiate(ObjectToSpawn, hits[0].pose.position, ObjectToSpawn.transform.rotation);
         }
     }
 }
