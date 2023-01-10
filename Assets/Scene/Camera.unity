@@ -563,6 +563,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ObjectAimPoint: {fileID: 1238815890}
+  ObjectToSpawn: {fileID: 49315013281351578, guid: 366644566efaceb47be13dab3f09df20, type: 3}
   _raycastManager: {fileID: 1310129121}
 --- !u!1 &1183053293
 GameObject:
