@@ -40,7 +40,7 @@ public class AimPointScript : MonoBehaviour
     private void UpdateObjectPose()
     {
         var screenCenter = Camera.current.ViewportToScreenPoint(new Vector3(0.5f, 0.5f));
-        List<ARRaycastHit> hits = new List<ARRaycastHit>();
+        var hits = new List<ARRaycastHit>();
         _raycastManager.Raycast(screenCenter, hits, TrackableType.Planes);
 
         _objectPoseIsValid = hits.Count > 0;
