@@ -6,7 +6,6 @@ using UnityEngine.XR.ARSubsystems;
 
 public class AimPointScript : MonoBehaviour
 {
-    public GameObject ObjectToPlace;
     public GameObject ObjectAimPoint;
 
     [SerializeField] private ARRaycastManager _raycastManager;
@@ -23,15 +22,7 @@ public class AimPointScript : MonoBehaviour
         UpdateObjectPose();
         UpdateObjectIndicator();
 
-        if (_objectPoseIsValid && Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
-        {
-            PlaceObject();
-        }
-    }
-    private void PlaceObject()
-    {
-        Instantiate(ObjectToPlace, _objectPose.position, _objectPose.rotation);
-    }
+    } 
 
     private void UpdateObjectIndicator()
     {
