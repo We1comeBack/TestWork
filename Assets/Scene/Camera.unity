@@ -799,6 +799,7 @@ GameObject:
   - component: {fileID: 711894185}
   - component: {fileID: 711894184}
   - component: {fileID: 711894183}
+  - component: {fileID: 711894187}
   m_Layer: 5
   m_Name: NoteBook
   m_TagString: Untagged
@@ -927,6 +928,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 711894181}
   m_CullTransparentMesh: 1
+--- !u!114 &711894187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 711894181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 184e5ddc1c66d0248ad9973c6648828e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChoosedObject: {fileID: 7398458783227949652, guid: f7eaec72be87da940bdd627e1a531a42, type: 3}
 --- !u!1 &727875775
 GameObject:
   m_ObjectHideFlags: 0
@@ -1013,7 +1027,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3d2acf3e3b824b40a008d092422a397, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ObjectToPlace: {fileID: 0}
+  ObjectToPlace: {fileID: 7439430851045083726, guid: 366644566efaceb47be13dab3f09df20, type: 3}
   ObjectAimPoint: {fileID: 1238815890}
   _raycastManager: {fileID: 1310129121}
 --- !u!1 &991320042
@@ -1319,6 +1333,7 @@ GameObject:
   - component: {fileID: 1314169438}
   - component: {fileID: 1314169437}
   - component: {fileID: 1314169436}
+  - component: {fileID: 1314169440}
   m_Layer: 5
   m_Name: Cottage
   m_TagString: Untagged
@@ -1447,6 +1462,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1314169434}
   m_CullTransparentMesh: 1
+--- !u!114 &1314169440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314169434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 184e5ddc1c66d0248ad9973c6648828e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChoosedObject: {fileID: 6686330875190072337, guid: add4b17a16a6eee438e6edb8c6386cda, type: 3}
 --- !u!1 &1418616262
 GameObject:
   m_ObjectHideFlags: 0
@@ -1542,6 +1570,7 @@ GameObject:
   - component: {fileID: 1444388442}
   - component: {fileID: 1444388441}
   - component: {fileID: 1444388440}
+  - component: {fileID: 1444388444}
   m_Layer: 5
   m_Name: Car
   m_TagString: Untagged
@@ -1670,6 +1699,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1444388438}
   m_CullTransparentMesh: 1
+--- !u!114 &1444388444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1444388438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 184e5ddc1c66d0248ad9973c6648828e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChoosedObject: {fileID: 7436300739208882220, guid: c26bb093cc4185a4981ba0439b133f9e, type: 3}
 --- !u!1 &1486102549
 GameObject:
   m_ObjectHideFlags: 0
@@ -1815,6 +1857,7 @@ GameObject:
   - component: {fileID: 1512111025}
   - component: {fileID: 1512111024}
   - component: {fileID: 1512111023}
+  - component: {fileID: 1512111027}
   m_Layer: 5
   m_Name: Sofa
   m_TagString: Untagged
@@ -1943,6 +1986,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1512111021}
   m_CullTransparentMesh: 1
+--- !u!114 &1512111027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1512111021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 184e5ddc1c66d0248ad9973c6648828e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChoosedObject: {fileID: 7439430851045083726, guid: 366644566efaceb47be13dab3f09df20, type: 3}
 --- !u!1 &1520757304
 GameObject:
   m_ObjectHideFlags: 0
@@ -1956,6 +2012,7 @@ GameObject:
   - component: {fileID: 1520757308}
   - component: {fileID: 1520757307}
   - component: {fileID: 1520757306}
+  - component: {fileID: 1520757310}
   m_Layer: 5
   m_Name: Chair
   m_TagString: Untagged
@@ -2084,6 +2141,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1520757304}
   m_CullTransparentMesh: 1
+--- !u!114 &1520757310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1520757304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 184e5ddc1c66d0248ad9973c6648828e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChoosedObject: {fileID: 8303030282668278303, guid: 36930fc8c087bc143a82e89ce3011f5e, type: 3}
 --- !u!1 &1698812594
 GameObject:
   m_ObjectHideFlags: 0
