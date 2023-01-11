@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scaleMinValue: 0.05
-  scaleMaxValue: 0.2
+  scaleMaxValue: 0.3
   rotMinValue: 0
   rotMaxValue: 360
 --- !u!1 &9021715405271250620
