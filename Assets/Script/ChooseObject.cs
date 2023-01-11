@@ -26,5 +26,6 @@ public class ChooseObject : MonoBehaviour
     void ChooseObjectFunction()
     {
         AimPointScript.ObjectToPlace = ChoosedObject;
+        AimPointScript.ChooseObject = true;
     }
 }

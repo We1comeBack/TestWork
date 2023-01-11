@@ -13,6 +13,9 @@ public class AimPointScript : MonoBehaviour
     private Pose _objectPose;
     private bool _objectPoseIsValid = false;
 
+    public bool ChooseObject = false;
+    public GameObject ScrollView;
+
     void Start()
     {
 
@@ -23,15 +26,19 @@ public class AimPointScript : MonoBehaviour
         UpdateObjectPose();
         UpdateObjectIndicator();
 
-        if (_objectPoseIsValid && Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
+        if (ChooseObject)
         {
-            PlaceObject();
+            if (_objectPoseIsValid && Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
+            {
+                PlaceObject();
+            }
         }
     }
 
     private void PlaceObject()
     {
         Instantiate(ObjectToPlace, _objectPose.position, _objectPose.rotation);
+        ChooseObject = false;
     }
 
     private void UpdateObjectIndicator()
